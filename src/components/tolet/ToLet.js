@@ -16,7 +16,7 @@ const ToLet = () => {
                     <p className="text-[#7A86F2] text-3xl px-5">To-LET</p>
                 </div>
                 <div>
-                    <p className="text-[#7A86F2] text-3xl px-5 text-right flex items-center">
+                    <p className="text-[#7A86F2] text-3xl px-5 text-right flex items-center float-right">
                         SEE MORE
                         <IoIosArrowForward />
                     </p>

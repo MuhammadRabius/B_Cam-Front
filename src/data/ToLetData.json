@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "location": "Shyamoli",
+        "details": "2 bed room, 1 bathroom",
+        "startFrom": "1st March 2023",
+        "rent": "10000 Tk",
+        "rentType": "Bachelor",
+        "personNeed": "3 Persons",
+        "genderType": "Male",
+        "facilities": "WiFi, Phone",
+        "contactNumber": "01888888888",
+        "postedBy": "Sunny"
+    },
+    {
+        "id": 2,
+        "location": "Mohammadpur",
+        "details": "1 bed room, 2 bathroom",
+        "startFrom": "1st July 2023",
+        "rent": "5000 Tk",
+        "rentType": "Bachelor",
+        "personNeed": "5 Persons",
+        "genderType": "Female",
+        "facilities": "WiFi, Phone",
+        "contactNumber": "01888888456",
+        "postedBy": "Khadiza"
+    },
+    {
+        "id": 3,
+        "location": "Mohakhali",
+        "details": "3 bed room, 1 bathroom",
+        "startFrom": "1st August 2023",
+        "rent": "12000 Tk",
+        "rentType": "Bachelor",
+        "personNeed": "1 Person",
+        "genderType": "Male",
+        "facilities": "WiFi, Phone",
+        "contactNumber": "01888888999",
+        "postedBy": "Uchchash"
+    },
+    {
+        "id": 4,
+        "location": "Demra",
+        "details": "4 bed room, 3 bathroom",
+        "startFrom": "1st April 2023",
+        "rent": "20000 Tk",
+        "rentType": "Bachelor",
+        "personNeed": "6 Persons",
+        "genderType": "Female",
+        "facilities": "WiFi, Phone",
+        "contactNumber": "01888888888",
+        "postedBy": "Khadiza"
+    }
+]

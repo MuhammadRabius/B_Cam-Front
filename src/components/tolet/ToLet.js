@@ -5,7 +5,11 @@ Author: Mahmudur Rahman
 
 // Import packages
 import React from 'react';
+import { lazy } from 'react';
 import { IoIosArrowForward } from "react-icons/io";
+
+// components or pages
+const ToLetCard = lazy(() => import('./ToLetCard.js'));
 
 // Main Code
 const ToLet = () => {
@@ -22,6 +26,7 @@ const ToLet = () => {
                     </p>
                 </div>
             </div>
+                <ToLetCard />
         </>
     );
 };

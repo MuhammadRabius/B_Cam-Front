@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { lazy } from 'react';
+
+// components or pages
+const Home = lazy(() => import('./pages/homepage/Home.js'));
 
 const App = () => {
   return (
     <>
-      <h1 className="text-center text-blue-600 text-bold text-5xl">Welcome to Bachelor Camp</h1>
+      <Home />
     </>
   );
 };

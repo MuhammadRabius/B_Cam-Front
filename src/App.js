@@ -5,16 +5,17 @@ import NotFound from "./components/page/404Page/NotFound.js";
 import Login from "./pages/LogIn/Login";
 import "./App.css";
 // components or pages
-const Home = lazy(() => import("./pages/homepage/Home.js"));
+const Home = lazy(() => import("./pages/Homepage/Home.js"));
 
 const App = () => {
   return (
     <>
       <Header />
+
       <Routes>
-        <Route path="/" element={Home} />
-        <Route path="/login" element={Login} />
-        <Route path="#" element={NotFound} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="#" element={<NotFound />} />
       </Routes>
     </>
   );

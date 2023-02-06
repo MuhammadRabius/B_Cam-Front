@@ -2,17 +2,23 @@
 File Created:3.2.2023
 Author: Mahmudur Rahman
 */
-import React, { lazy } from 'react';
+import React, { lazy } from "react";
+import TopBanner from "./TopBanner/TopBanner.js";
 
 // components or pages
-const ToLet = lazy(() => import('../../components/tolet/ToLet.js'));
 
 const Home = () => {
-    return (
-        <>
-            <ToLet />
-        </>
-    );
+  return (
+    <>
+      <div className="home_page">
+        <div className="container">
+          <div className="__top_banner">
+            <TopBanner />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Home;

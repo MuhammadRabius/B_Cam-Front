@@ -12,7 +12,8 @@ const Home = () => {
     <>
       <div className="home_page">
         <div className="container">
-          <div className="__top_banner">
+          {/* Top Banner Section */}
+          <div className="pb-7">
             <TopBanner />
           </div>
         </div>

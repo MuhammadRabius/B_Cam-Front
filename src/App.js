@@ -4,6 +4,7 @@ import Header from "./components/Header/Header.js";
 import NotFound from "./components/page/404Page/NotFound.js";
 import Login from "./pages/LogIn/Login";
 import "./App.css";
+import Footer from "./components/Footer/Footer.js";
 // components or pages
 const Home = lazy(() => import("./pages/Homepage/Home.js"));
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="#" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 };

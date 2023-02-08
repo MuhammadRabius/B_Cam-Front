@@ -4,8 +4,8 @@ import Header from "./components/Header/Header.js";
 import Login from "./pages/LogIn/Login";
 import "./App.css";
 import Footer from "./components/Footer/Footer.js";
-import Home from "./pages/Homepage/Home";
-import NotFound from './components/page/404Page/NotFound';
+import NotFound from "./pages/404Page/NotFound";
+import Home from "./components/HomeComp/Home.js";
 // components or pages
 
 const App = () => {

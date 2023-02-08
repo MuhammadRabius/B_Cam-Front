@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { HiArrowNarrowRight, HiOutlineDotsVertical } from "react-icons/hi";
+import "./TopBanner.scss";
 
 const TopBanner = () => {
   return (
@@ -9,33 +10,34 @@ const TopBanner = () => {
         <div className="">
           <div className="banner_img">
             {/* <img src="/images/topbanner/sample.jpg" alt="" /> */}
-            <img className="w-100" src="/images/topbanner/sample.jpg" alt="" />
+            <img
+              src="/images/topbanner/sample.jpg"
+              alt="bachelor camp banner"
+            />
           </div>
           {/* Headline Important Linkup */}
-          <div className="flex justify-between items-center py-4 ">
-            <div className="flex justify-center items-center gap-2">
+          <div className="important_headline_link">
+            <div className="important_link_group">
               <NavLink to="/login">
-                <span className="text-xl ">Post a To-Let</span>
+                <span className="link_text">Post a To-Let</span>
               </NavLink>{" "}
               <HiArrowNarrowRight />
             </div>
 
             <HiOutlineDotsVertical />
 
-            <div className="flex justify-center items-center gap-2">
+            <div className="important_link_group">
               <NavLink to="/login">
-                <span className="text-xl center">
-                  Login to Camp Manager Account
-                </span>
+                <span className="link_text">Login to Camp Manager Account</span>
               </NavLink>
               <HiArrowNarrowRight />
             </div>
 
             <HiOutlineDotsVertical />
 
-            <div className="flex justify-center items-center gap-2">
+            <div className="important_link_group">
               <NavLink to="/login">
-                <span className="text-xl center">Become Camp Member</span>
+                <span className="link_text">Become Camp Member</span>
               </NavLink>
               <HiArrowNarrowRight />
             </div>

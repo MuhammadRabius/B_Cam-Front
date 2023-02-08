@@ -3,7 +3,7 @@ File Created:07.02.2023
 Author: R.Sunny
 */
 import React, { lazy } from "react";
-import TopBanner from "./../../pages/Homepage/TopBanner/TopBanner";
+import TopBanner from "./../../pages/TopBanner/TopBanner";
 
 // components or pages
 

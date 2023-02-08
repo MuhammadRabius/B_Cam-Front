@@ -6,6 +6,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer.js";
 import NotFound from "./pages/404Page/NotFound";
 import Home from "./components/HomeComp/Home.js";
+import LoginDashboard from "./pages/LoginDashboard/LoginDashboard.js";
 // components or pages
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/logindashboard" element={<LoginDashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="#" element={<NotFound />} />
       </Routes>

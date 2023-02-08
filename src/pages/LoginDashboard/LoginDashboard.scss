@@ -1,0 +1,68 @@
+.login_dashboard_page{
+
+      padding: 4rem 0;
+
+      .component_header{
+            .anc_text{
+                  font-size: 14px;
+                  font-weight: 700;
+                  line-height: 1.5em;
+                  color: #0057B8;
+                  padding-bottom: 20px;
+            }
+            .login_section{
+                  padding-top: 2rem;
+                  padding-bottom: 3rem;
+                   
+                  .tag_text{
+                  font-size: 69px;
+                  line-height: 1em;
+                  font-family: 'mayo-display', serif;
+                  font-weight: 400;
+                  }
+
+                .innersubtitle{
+                  font-size: 23px;
+                  line-height: 1.5em;
+                  font-family: 'mayo-sans', sans-serif;
+                  font-weight: 400;
+                  
+                }  
+                .login_btn{
+                  background-color: rgba(27,28,68,255) !important;
+                  color: whitesmoke;
+                  margin-right: 20px;
+                  border-radius: 10px;
+                }
+                
+                .reg_btn{
+                  border-radius: 10px;
+                }
+                     
+                  
+            }
+
+           .others_link{
+            padding: 3rem 0 ;
+
+            .__head_text{
+                  font-size: 35px;
+                  line-height: 1.05em;
+                  font-family: 'mayo-display', serif;
+                  font-weight: 400;
+            }
+            .other_comp_link{
+                  padding: 20px 0;
+          
+            }
+                  
+           }
+          .inner_comp{ 
+                  margin-top: 20px;
+                  display: flex;
+                  justify-content: flex-start;
+                  gap: 30px;
+                  align-items: center;
+                  } 
+      }
+}

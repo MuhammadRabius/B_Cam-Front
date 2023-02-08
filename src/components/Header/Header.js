@@ -11,7 +11,7 @@ const Header = () => {
         <li>
           <Link to="/login">
             <Button className="btn_group" variant="contained">
-              Sing In
+              Log In
             </Button>
           </Link>
         </li>

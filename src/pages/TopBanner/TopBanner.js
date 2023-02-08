@@ -6,10 +6,10 @@ const TopBanner = () => {
   return (
     <>
       <div className="top_banner_page">
-        <div className="container">
+        <div className="">
           <div className="banner_img">
             {/* <img src="/images/topbanner/sample.jpg" alt="" /> */}
-            <img className="" src="/images/topbanner/sample.jpg" alt="" />
+            <img className="w-100" src="/images/topbanner/sample.jpg" alt="" />
           </div>
           {/* Headline Important Linkup */}
           <div className="flex justify-between items-center py-4 ">

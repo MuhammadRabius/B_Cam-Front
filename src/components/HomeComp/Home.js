@@ -1,9 +1,9 @@
 /* 
-File Created:3.2.2023
-Author: Mahmudur Rahman
+File Created:07.02.2023
+Author: R.Sunny
 */
 import React, { lazy } from "react";
-import TopBanner from "./TopBanner/TopBanner.js";
+import TopBanner from "./../../pages/Homepage/TopBanner/TopBanner";
 
 // components or pages
 
@@ -16,6 +16,9 @@ const Home = () => {
           <div className="pb-7">
             <TopBanner />
           </div>
+
+          {/* To-let section */}
+          <div></div>
         </div>
       </div>
     </>

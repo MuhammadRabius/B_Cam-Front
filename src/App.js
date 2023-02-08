@@ -1,12 +1,12 @@
 import React, { lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header.js";
-import NotFound from "./components/page/404Page/NotFound.js";
 import Login from "./pages/LogIn/Login";
 import "./App.css";
 import Footer from "./components/Footer/Footer.js";
+import Home from "./pages/Homepage/Home";
+import NotFound from './components/page/404Page/NotFound';
 // components or pages
-const Home = lazy(() => import("./pages/Homepage/Home.js"));
 
 const App = () => {
   return (

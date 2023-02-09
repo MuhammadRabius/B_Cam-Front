@@ -164,8 +164,8 @@ const ToLetSearchResult = () => {
             </CardContent>
           </Card>
         </div>
-        <div style={{textAlign:'end'}}>
-          <button className="btn_submit">See More</button>
+        <div className="btn_submit">
+          <button className="inner_btn">See More</button>
         </div>
       </div>
     </>

@@ -28,7 +28,7 @@ const LoginDashboard = () => {
               {/* button Link */}
               <div style={{ marginTop: "15px" }}>
                 <NavLink className="login_btn" to="/login">
-                  <Button variant="contained">log in</Button>
+                  <Button className="btn_color" variant="contained">log in</Button>
                 </NavLink>
 
                 <NavLink className="reg_btn" to="/">

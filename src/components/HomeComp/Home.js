@@ -4,6 +4,7 @@ Author: R.Sunny
 */
 import React, { lazy } from "react";
 import TopBanner from "./../../pages/TopBanner/TopBanner";
+import ToLetDashboard from './../../pages/ToLetDashboard/ToLetDashboard';
 
 // components or pages
 
@@ -18,7 +19,7 @@ const Home = () => {
           </div>
 
           {/* To-let section */}
-          <div></div>
+          <div><ToLetDashboard/></div>
         </div>
       </div>
     </>

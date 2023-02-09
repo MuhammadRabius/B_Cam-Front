@@ -18,7 +18,7 @@ const TopBanner = () => {
           {/* Headline Important Linkup */}
           <div className="important_headline_link">
             <div className="important_link_group">
-              <NavLink to="/logindashboard">
+              <NavLink to="/login-dashboard">
                 <span className="link_text">Post a To-Let</span>
               </NavLink>{" "}
               <HiArrowNarrowRight />
@@ -27,7 +27,7 @@ const TopBanner = () => {
             <HiOutlineDotsVertical />
 
             <div className="important_link_group">
-              <NavLink to="/logindashboard">
+              <NavLink to="/login-dashboard">
                 <span className="link_text">Login to Camp Manager Account</span>
               </NavLink>
               <HiArrowNarrowRight />
@@ -36,7 +36,7 @@ const TopBanner = () => {
             <HiOutlineDotsVertical />
 
             <div className="important_link_group">
-              <NavLink to="/logindashboard">
+              <NavLink to="/login-dashboard">
                 <span className="link_text">Become Camp Member</span>
               </NavLink>
               <HiArrowNarrowRight />

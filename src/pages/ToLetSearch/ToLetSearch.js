@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Select from "@mui/material/Select";
 import { FormControl, InputLabel, MenuItem } from "@mui/material";
 import "./ToLetSearch.scss";
+import { useNavigate } from "react-router-dom";
 
 const ToLetSearch = () => {
+  const navigate = useNavigate();
   const initVal = {
     city: "",
     area: "",
@@ -20,6 +22,9 @@ const ToLetSearch = () => {
   const handleToletFormSearch = (e) => {
     e.preventDefault();
   };
+  const onChange =()=>{
+    navigate('/search/result')
+  }
 
   return (
     <>
@@ -77,7 +82,7 @@ const ToLetSearch = () => {
             </div>
 
             <div lassName="_form_group">
-              <button className="btn_submit" type="submit">
+              <button onClick={onChange} className="btn_submit" type="submit">
                 Search
               </button>
             </div>

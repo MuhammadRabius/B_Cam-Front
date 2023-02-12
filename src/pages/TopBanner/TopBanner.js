@@ -7,40 +7,36 @@ const TopBanner = () => {
   return (
     <>
       <div className="top_banner_page">
-        <div className="">
-          <div className="banner_img">
-            {/* <img src="/images/topbanner/sample.jpg" alt="" /> */}
-            <img
-              src="/images/topbanner/sample.jpg"
-              alt="bachelor camp banner"
-            />
+        <div className="banner_img">
+          {/* <img src="/images/topbanner/sample.jpg" alt="" /> */}
+          <img src="/images/topbanner/sample.webp" alt="bachelor camp banner" />
+        </div>
+
+        {/* Headline Important Linkup */}
+        <div className="important_headline_link">
+          <div className="important_link_group">
+            <NavLink to="/login-dashboard">
+              <span className="link_text">Post a To-Let</span>
+            </NavLink>
+            <HiArrowNarrowRight />
           </div>
-          {/* Headline Important Linkup */}
-          <div className="important_headline_link">
-            <div className="important_link_group">
-              <NavLink to="/login-dashboard">
-                <span className="link_text">Post a To-Let</span>
-              </NavLink>{" "}
-              <HiArrowNarrowRight />
-            </div>
 
-            <HiOutlineDotsVertical />
+          <HiOutlineDotsVertical />
 
-            <div className="important_link_group">
-              <NavLink to="/login-dashboard">
-                <span className="link_text">Login to Camp Manager Account</span>
-              </NavLink>
-              <HiArrowNarrowRight />
-            </div>
+          <div className="important_link_group">
+            <NavLink to="/login-dashboard">
+              <span className="link_text">Login to Manager</span>
+            </NavLink>
+            <HiArrowNarrowRight />
+          </div>
 
-            <HiOutlineDotsVertical />
+          <HiOutlineDotsVertical />
 
-            <div className="important_link_group">
-              <NavLink to="/login-dashboard">
-                <span className="link_text">Become Camp Member</span>
-              </NavLink>
-              <HiArrowNarrowRight />
-            </div>
+          <div className="important_link_group">
+            <NavLink to="/login-dashboard">
+              <span className="link_text">Become Camp Member</span>
+            </NavLink>
+            <HiArrowNarrowRight />
           </div>
         </div>
         <hr />
